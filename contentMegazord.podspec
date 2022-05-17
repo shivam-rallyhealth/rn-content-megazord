@@ -7,7 +7,7 @@ package = JSON.parse(File.read(File.join(__dir__, "package.json")))
 Pod::Spec.new do |s|
   s.name         = "ContentMegazord"
   s.version      = package["version"]
-  s.summary      = package["description"]
+  s.summary      = "React Native Modules for ContentMegazord"
   s.description  = <<-DESC
                   react-native-test-module
                    DESC
