@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # optional - use expanded license entry instead:
   # s.license    = { :type => "MIT", :file => "LICENSE" }
-  s.authors      = { "Falcons-Rallyhealth" => "falcons@rallyhealth.com" }
+  s.authors      = { package["authors"] => package["contact"] }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/github_account/react-native-test-module.git", :tag => "#{s.version}" }
+  s.source       = { :git => package["git-repo"], :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
   s.requires_arc = true
