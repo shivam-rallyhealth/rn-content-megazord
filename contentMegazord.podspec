@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
   # brief license entry:
   # optional - use expanded license entry instead:
-  s.license    = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
   s.authors      = { package["authors"] => package["contact"] }
   s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/github_account/react-native-test-module.git", :tag => "#{s.version}" }
