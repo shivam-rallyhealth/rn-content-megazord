@@ -23,13 +23,13 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   # ...
   # s.dependency "..."
-  s.dependency "FBReactNativeSpec": package["podVersions"]["FBReactNativeSpec"][0],
-  s.dependency "React-jsiexecutor": package["podVersions"]["React-jsiexecutor"][0],
+  s.dependency "FBReactNativeSpec": package["podVersion"],
+  s.dependency "React-jsiexecutor": package["podVersion"],
   s.dependency "RCT-Folly": package["podVersions"]["RCT-Folly"][0],
-  s.dependency "RCTRequired": package["podVersions"]["RCTRequired"][0],
-  s.dependency "RCTTypeSafety": package["podVersions"]["RCTTypeSafety"][0],
-  s.dependency "React-Core": package["podVersions"]["React-Core"][0],
-  s.dependency "React-jsi": package["podVersions"]["React-jsi"][0],
-  s.dependency "ReactCommon/turbomodule/core": package["podVersions"]["ReactCommon/turbomodule/core"][0]
+  s.dependency "RCTRequired": package["podVersion"],
+  s.dependency "RCTTypeSafety": package["podVersion"],
+  s.dependency "React-Core": package["podVersion"],
+  s.dependency "React-jsi": package["podVersion"],
+  s.dependency "ReactCommon/turbomodule/core": package["podVersion"]
 end
 
