@@ -5,6 +5,8 @@
   "description": "React Native Modules for Content Megazord.",
   "authors": "Falcons-Rallyhealth",
   "contact": "falcons@rallyhealth.com",
+  "title": "contentMegazord",
+  "homepage": "https://content.werally.com",
   "git-repo": "https://github.com/shivam-rallyhealth/rn-content-megazord",
   "scripts": {
     "android": "react-native run-android",
