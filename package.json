@@ -1,6 +1,6 @@
 {
   "name": "contentmegazord",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "private": true,
   "description": "React Native Modules for Content Megazord.",
   "authors": "Falcons-Rallyhealth",
@@ -8,6 +8,32 @@
   "title": "ContentMegazord",
   "homepage": "https://content.werally.com",
   "git-repo": "https://github.com/shivam-rallyhealth/rn-content-megazord",
+  "podVersions": {
+    "FBReactNativeSpec": [
+      "0.68.2"
+    ],
+    "React-jsiexecutor": [
+      "0.68.2"
+    ],
+    "RCT-Folly": [
+      "2021.06.28.00-v2"
+    ],
+    "RCTRequired": [
+      "0.68.2"
+    ],
+    "RCTTypeSafety": [
+      "0.68.2"
+    ],
+    "React-Core": [
+      "0.68.2"
+    ],
+    "React-jsi": [
+      "0.68.2"
+    ],
+    "ReactCommon/turbomodule/core": [
+      "0.68.2"
+    ]
+  },
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
