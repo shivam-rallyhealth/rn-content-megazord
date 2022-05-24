@@ -23,6 +23,17 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   # ...
   # s.dependency "..."
-  s.dependency "React"
+  s.dependency "React-Core", version
+  s.dependency "React-Core/DevSupport", version
+  s.dependency "React-Core/RCTWebSocket", version
+  s.dependency "React-RCTActionSheet", version
+  s.dependency "React-RCTAnimation", version
+  s.dependency "React-RCTBlob", version
+  s.dependency "React-RCTImage", version
+  s.dependency "React-RCTLinking", version
+  s.dependency "React-RCTNetwork", version
+  s.dependency "React-RCTSettings", version
+  s.dependency "React-RCTText", version
+  s.dependency "React-RCTVibration", version
 end
 
